@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sepina studio — diseño gráfico y branding estratégico. Logos, catálogos y redes sociales. Villa de Cura, Aragua, Venezuela." />
+  <meta name="theme-color" content="#3a2f28" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sepina studio" />
+  <meta property="og:description" content="Grandes marcas, grandes negocios. Diseño gráfico y branding estratégico desde Villa de Cura, Aragua." />
+  <meta property="og:locale" content="es_VE" />
+  <title>Sepina studio — Diseño gráfico y branding</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%23f7f5f2' width='32' height='32' rx='6'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia,serif' font-size='16' font-weight='bold' fill='%233a2f28'%3ES%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+
+  <header class="nav" role="navigation" aria-label="Secciones">
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#estudio">Estudio</a>
+    <a href="#contacto">Contacto</a>
+  </header>
+
+  <div id="contenido" class="wrap">
+    <section id="inicio" class="hero" aria-labelledby="brand-heading">
+      <h1 id="brand-heading" class="visually-hidden">Sepina studio</h1>
+      <div class="brand">
+        <div class="wordmark" role="img" aria-label="Sepina studio">
+          <div class="wordmark-row">
+            <span class="s">S</span>
+            <span class="e1">e</span>
+            <span class="cluster">
+              <span class="dot" aria-hidden="true"></span>
+              <span class="p">p</span><span class="i">i</span><span class="n">n</span>
+            </span>
+            <span class="a2">a</span>
+          </div>
+          <span class="studio">studio</span>
+        </div>
+      </div>
+      <p class="tagline">Grandes marcas, grandes negocios</p>
+      <p class="services-line">
+        Logos <span>|</span> Catálogos <span>|</span> Redes sociales
+      </p>
+    </section>
+
+    <section id="servicios" class="block" aria-labelledby="servicios-heading">
+      <h2 id="servicios-heading">Lo que hacemos</h2>
+      <p class="lead">
+        Identidad visual y presencia digital con intención: cada pieza cuenta la historia de tu marca.
+      </p>
+      <div class="cards">
+        <article class="card">
+          <p class="card-num">01</p>
+          <h3>Logos e identidad</h3>
+          <p>Logotipos y sistemas visuales que te hacen reconocible y memorables desde el primer vistazo.</p>
+        </article>
+        <article class="card">
+          <p class="card-num">02</p>
+          <h3>Catálogos y piezas</h3>
+          <p>Materiales impresos y digitales alineados a tu branding para vender y comunicar con claridad.</p>
+        </article>
+        <article class="card">
+          <p class="card-num">03</p>
+          <h3>Redes sociales</h3>
+          <p>Estrategia y diseño de contenido para que tu feed refleje profesionalismo y autenticidad.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="estudio" class="block" aria-labelledby="estudio-heading">
+      <h2 id="estudio-heading">Nuestra visión</h2>
+      <div class="manifesto">
+        <p>
+          Ayudamos a las marcas a encontrar su voz y a destacar en un mundo digital cada vez más saturado.
+        </p>
+        <p>
+          Creamos identidades visuales únicas: desde logotipos impactantes hasta estrategias en redes que conectan con autenticidad.
+        </p>
+      </div>
+      <p class="saludo">
+        Te saluda la mente creativa detrás de <strong>Sepina Studio</strong> — diseño gráfico y branding estratégico con mirada humana.
+      </p>
+      <p class="location">Villa de Cura, Aragua — Venezuela</p>
+    </section>
+
+    <section id="contacto" class="contact-block" aria-labelledby="contacto-heading">
+      <h2 id="contacto-heading">¿Listos para trabajar juntos?</h2>
+      <p class="sub">Escríbenos por Instagram o centraliza tu contacto en nuestra bio.</p>
+      <div class="actions">
+        <a class="primary" href="https://www.instagram.com/sepinastudio/" target="_blank" rel="noopener noreferrer">Instagram @sepinastudio</a>
+        <a class="secondary" href="https://atom.bio/sanchezgusse" target="_blank" rel="noopener noreferrer">Contacto y enlaces</a>
+      </div>
+      <p class="hint">También en <a class="hint-link" href="https://www.instagram.com/andreagusse/" target="_blank" rel="noopener noreferrer">@andreagusse</a> — misma casa creativa.</p>
+    </section>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="year"></span> Sepina studio ·
+        <a href="https://www.instagram.com/sepinastudio/">@sepinastudio</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
