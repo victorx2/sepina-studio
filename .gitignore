@@ -1,3 +1,6 @@
+# Logo en la raíz (duplicado): la versión que sirve Astro es public/Sepina.png
+/Sepina.png
+
 .vercel
 .DS_Store
 Thumbs.db
