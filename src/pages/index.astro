@@ -17,29 +17,30 @@ const year = new Date().getFullYear();
     <a href="#contacto">Contacto</a>
   </header>
 
-  <div id="contenido" class="wrap">
-    <section id="inicio" class="hero">
-      <div class="brand">
-        <h1 id="brand-heading" class="brand-heading">
-          <span class="brand-logo-wrap">
-            <img
-              class="brand-logo"
-              src="/Sepina.png"
-              alt="Sepina studio"
-              width="800"
-              height="400"
-              decoding="async"
-              fetchpriority="high"
-            />
-          </span>
-        </h1>
-      </div>
+  <main id="contenido">
+  <section id="inicio" class="hero hero--full" aria-label="Inicio">
+    <div class="hero__banner">
+      <h1 id="brand-heading" class="brand-heading">
+        <span class="brand-logo-wrap">
+          <img
+            class="brand-logo brand-logo--banner"
+            src="/Sepina.png"
+            alt="Sepina studio"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </span>
+      </h1>
+    </div>
+    <div class="hero__sub">
       <p class="tagline">Grandes marcas, grandes negocios</p>
       <p class="services-line">
         Logos <span>|</span> Catálogos <span>|</span> Redes sociales
       </p>
-    </section>
+    </div>
+  </section>
 
+  <div class="wrap">
     <section id="servicios" class="block" aria-labelledby="servicios-heading">
       <h2 id="servicios-heading" class="h2-nos-importa">Nos importa</h2>
       <p class="lead">
@@ -99,4 +100,5 @@ const year = new Date().getFullYear();
       </p>
     </footer>
   </div>
+  </main>
 </Layout>
